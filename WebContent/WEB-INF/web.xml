@@ -56,4 +56,21 @@
   	<servlet-name>configEx</servlet-name>
   	<url-pattern>/configEx.jsp</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>servletParamEx</servlet-name>
+  	<servlet-class>com.servlet.ServletParameter</servlet-class>
+  	<init-param>
+  		<param-name>admin_Id</param-name>
+  		<param-value>abc</param-value>
+  	</init-param>
+  	<init-param>
+  		<param-name>admin_Pw</param-name>
+  		<param-value>123</param-value>
+  	</init-param>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>servletParamEx</servlet-name>
+  	<url-pattern>/SP</url-pattern>
+  </servlet-mapping>
 </web-app>
